@@ -58,7 +58,14 @@ class MyScaffold extends StatelessWidget {
           ),
           const Expanded(
             child: Center(
-              child: Text('Hello, worldasdadaddadsd!'),
+              child: Column(
+                children: [
+                  Center(
+                    child: Text('Hello, worldasdadaddadsd!'),
+                  ),
+                  Text("THIS IS ANOTHER DATA IN TO THE FLUTTER PAGE"),
+                ],
+              ),
             ),
           ),
         ],
